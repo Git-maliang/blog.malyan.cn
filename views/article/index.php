@@ -15,14 +15,13 @@ use yii\widgets\LinkPager;
 use yii\widgets\ListView;
 
 $this->title = '青春也迷茫';
-$this->params['breadcrumbs'] = ['文章'];
 ?>
 <div class="row">
     <div class="col-sm-9">
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="page-header" style="padding-bottom:7px ">
-                    <h1>文章</h1>
+                    <h1>&nbsp;</h1>
                     <ul id="w0" class="nav nav-tabs nav-main">
                         <?php foreach (Article::$sortArray as $key => $val): ?>
                         <li <?= $sort == $key ? 'class="active"' : ''; ?>>

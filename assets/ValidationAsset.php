@@ -12,8 +12,8 @@ use yii\web\AssetBundle;
 
 class ValidationAsset extends AssetBundle
 {
-    public $basePath = '@webroot';
-    public $baseUrl = '@web';
+    public $basePath = '@staticHost';
+    public $baseUrl = '@staticHost';
 
     public $js = [
         'js/validation.js'

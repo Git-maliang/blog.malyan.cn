@@ -3,6 +3,7 @@
 namespace app\models;
 
 use Yii;
+use yii\helpers\Html;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;
 use yii\base\NotSupportedException;
@@ -64,7 +65,7 @@ class User extends ActiveRecord implements IdentityInterface
             [['status', 'created_at'], 'integer'],
             [['username'], 'string', 'max' => 20],
             ['username', 'email'],
-            [['username'], 'unique', 'targetAttribute' => ['username', 'status']],
+            ['username', 'unique', 'targetAttribute' => ['username', 'status' => 'status'], 'message' => '此邮箱已经注册。'],
             [['nickname'], 'string', 'min' => 2, 'max' => 12],
             [['auth_key'], 'string', 'max' => 32],
             [['password_hash'], 'string', 'max' => 255],

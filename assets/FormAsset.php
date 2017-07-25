@@ -11,8 +11,8 @@ use yii\web\AssetBundle;
 
 class FormAsset extends AssetBundle
 {
-    public $basePath = '@webroot';
-    public $baseUrl = '@web';
+    public $basePath = '@staticHost';
+    public $baseUrl = '@staticHost';
     public $css = [
         'css/site.css',
         'css/style.css',

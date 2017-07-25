@@ -20,7 +20,7 @@ $this->title = '账号注册';
         <?= $form->field($model, 'nickname'); ?>
         <?= $form->field($model, 'avatar', [
             'template' => '{label}{input}' .
-                Html::img(Yii::$app->params['userDefaultAvatar'],
+                Html::img($model->avatar,
                     [
                         'id' => 'avatar-image',
                         'width' => 80,

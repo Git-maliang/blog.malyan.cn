@@ -105,15 +105,18 @@ class UserController extends Controller
         }
 
         $model = new User();
+        $model->avatar = Yii::$app->params['userDefaultAvatar'];
         $request = Yii::$app->request;
 
         if($request->isAjax && $model->load($request->post())){
             Yii::$app->response->format = Response::FORMAT_JSON;
+            $model->status = User::STATUS_ACTIVE;
             return ActiveForm::validate($model);
         }
 
         if($request->isPost){
             if($model->load($request->post())){
+                $model->status = User::STATUS_ACTIVATE;
                 // 上传头像
                 $model->avatar = UploadedFile::getInstance($model, 'avatar');
                 if($model->avatar && $model->validate()){
