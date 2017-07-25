@@ -60,64 +60,64 @@ playlist = [
     title: '德国第一装甲师进行曲',
     artist: '德国',
     album: '德国第一装甲师进行曲.mp3',
-    cover:'http://static.malyan.cn/blog/images/music/1.jpg',
-    mp3: 'http://file.malyan.cn/blog/mp3/deguo.mp3',
+    cover:'https://static.malyan.cn/blog/images/music/1.jpg',
+    mp3: 'https://file.malyan.cn/blog/mp3/deguo.mp3',
     ogg: ''
 },
 {
     title: '亡灵序曲',
     artist: '魔兽世界',
     album: '魔兽世界 - 亡灵序曲.mp3',
-    cover: 'http://static.malyan.cn/blog/images/music/2.jpg',
-    mp3: 'http://file.malyan.cn/blog/mp3/The Dawn.mp3',
+    cover: 'https://static.malyan.cn/blog/images/music/2.jpg',
+    mp3: 'https://file.malyan.cn/blog/mp3/The Dawn.mp3',
     ogg: ''
 },
 {
     title: 'chenparty dj.mp3',
     artist: '德国童声',
     album: 'chenparty 超好听的德国童声 dj.mp3',
-    cover: 'http://static.malyan.cn/blog/images/music/3.jpg',
-    mp3: 'http://file.malyan.cn/blog/mp3/chenparty dj.mp3',
+    cover: 'https://static.malyan.cn/blog/images/music/3.jpg',
+    mp3: 'https://file.malyan.cn/blog/mp3/chenparty dj.mp3',
     ogg: ''
 },
 {
     title: '德国第一装甲师进行曲',
     artist: '德国',
     album: '德国第一装甲师进行曲.mp3',
-    cover:'http://static.malyan.cn/blog/images/music/1.jpg',
-    mp3: 'http://file.malyan.cn/blog/mp3/deguo.mp3',
+    cover:'https://static.malyan.cn/blog/images/music/1.jpg',
+    mp3: 'https://file.malyan.cn/blog/mp3/deguo.mp3',
     ogg: ''
 },
 {
     title: '亡灵序曲',
     artist: '魔兽世界',
     album: '魔兽世界 - 亡灵序曲.mp3',
-    cover: 'http://static.malyan.cn/blog/images/music/2.jpg',
-    mp3: 'http://file.malyan.cn/blog/mp3/The Dawn.mp3',
+    cover: 'https://static.malyan.cn/blog/images/music/2.jpg',
+    mp3: 'https://file.malyan.cn/blog/mp3/The Dawn.mp3',
     ogg: ''
 },
 {
     title: 'chenparty dj.mp3',
     artist: '德国童声',
     album: 'chenparty 超好听的德国童声 dj.mp3',
-    cover: 'http://static.malyan.cn/blog/images/music/3.jpg',
-    mp3: 'http://file.malyan.cn/blog/mp3/chenparty dj.mp3',
+    cover: 'https://static.malyan.cn/blog/images/music/3.jpg',
+    mp3: 'https://file.malyan.cn/blog/mp3/chenparty dj.mp3',
     ogg: ''
 },
 {
     title: '德国第一装甲师进行曲',
     artist: '德国',
     album: '德国第一装甲师进行曲.mp3',
-    cover:'http://static.malyan.cn/blog/images/music/1.jpg',
-    mp3: 'http://file.malyan.cn/blog/mp3/deguo.mp3',
+    cover:'https://static.malyan.cn/blog/images/music/1.jpg',
+    mp3: 'https://file.malyan.cn/blog/mp3/deguo.mp3',
     ogg: ''
 },
 {
     title: '亡灵序曲',
     artist: '魔兽世界',
     album: '魔兽世界 - 亡灵序曲.mp3',
-    cover: 'http://static.malyan.cn/blog/images/music/2.jpg',
-    mp3: 'http://file.malyan.cn/blog/mp3/The Dawn.mp3',
+    cover: 'https://static.malyan.cn/blog/images/music/2.jpg',
+    mp3: 'https://file.malyan.cn/blog/mp3/The Dawn.mp3',
     ogg: ''
 }
 ];
