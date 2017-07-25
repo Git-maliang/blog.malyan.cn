@@ -19,7 +19,7 @@ class Category extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return '{{%category}}';
+        return '{{%article_category}}';
     }
 
     /**
@@ -44,5 +44,13 @@ class Category extends \yii\db\ActiveRecord
             'name' => '名称',
             'created_at' => '创建时间',
         ];
+    }
+
+    /**
+     * @return array
+     */
+    public static function categoryArray()
+    {
+        return self::find()->select(['name'])->indexBy('id')->column();
     }
 }

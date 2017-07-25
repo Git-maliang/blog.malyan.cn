@@ -110,7 +110,8 @@ uploader.on( 'uploadProgress', function( file, percentage ) {
 });
 // 完成上传完了，成功或者失败，先删除进度条。
 uploader.on( 'uploadSuccess', function( file, data ) {
-    var url = '/{$web}/' + data.url;
+    //var url = '/{$web}/' + data.url;
+    var url = data.url;
     $( '#'+file.id ).find('p.state').text('上传成功').fadeOut();
     $( '#{$this->options['boxId']} .webuploader-pick' ).html('<img src="'+url+'" width="{$this->options['previewWidth']}" height="{$this->options['previewHeight']}"/>');
     $( '#{$this->options['id']}' ).val(url);

@@ -28,6 +28,7 @@ class ArticleAttach extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
+            [['title', 'content'], 'required'],
             [['article_id'], 'integer'],
             [['content'], 'required'],
             [['content'], 'string'],
