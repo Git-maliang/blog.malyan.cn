@@ -15,10 +15,10 @@ $config = [
     'aliases' => [
         '@static' => '../../image.malyan.cn/blog',
         '@staticroot' => '../../image.malyan.cn/blog',
-        '@imageHost' => 'http://image.malyan.cn/blog',
+        '@imageHost' => 'https://image.malyan.cn/blog',
         '@imageHostPath' => '../../image.malyan.cn/blog',
-        '@staticHost' => 'http://static.malyan.cn/blog',
-        '@fileHost' => 'http://file.malyan.cn/blog',
+        '@staticHost' => 'https://static.malyan.cn/blog',
+        '@fileHost' => 'https://file.malyan.cn/blog',
     ],
 ];
 
