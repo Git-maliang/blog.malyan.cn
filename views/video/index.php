@@ -8,6 +8,7 @@
 use app\assets\AppAsset;
 $this->registerCssFile('@staticHost/css/video.min.css');
 $this->registerJsFile('@staticHost/js/video/video.min.js', ['depends' => AppAsset::className()]);
+$this->title = '青春也迷茫';
 ?>
 <div class="panel panel-default">
     <div class="panel-body video-box">

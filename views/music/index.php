@@ -10,6 +10,7 @@ $this->registerCssFile('@staticHost/css/music.css');
 $this->registerJsFile('@staticHost/js/jquery-1.7.2.min.js', ['depends' => AppAsset::className()]);
 $this->registerJsFile('@staticHost/js/custom.min.js', ['depends' => AppAsset::className()]);
 $this->registerJsFile('@staticHost/js/music.js', ['depends' => AppAsset::className()]);
+$this->title = '青春也迷茫';
 ?>
 <div class="panel panel-default">
     <div class="panel-body music-box" style="min-width: 620px">
