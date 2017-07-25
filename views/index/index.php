@@ -41,7 +41,7 @@ $this->registerJsFile('@staticHost/js/jquery.nanoscroller.min.js', ['depends' =>
 <!-- 轮播end -->
 <div class="row">
     <div class="col-sm-3  hidden-xs">
-        <div class="panel panel-default" style="background: url(http://image.malyan.cn/blog/user-bg.jpg) #fff; background-size:100% 120px; background-repeat:no-repeat;">
+        <div class="panel panel-default" style="background: url(https://image.malyan.cn/blog/user-bg.jpg) #fff; background-size:100% 120px; background-repeat:no-repeat;">
             <div class="panel-body">
                 <div class="user">
                     <img class="avatar" src="https://image.malyan.cn/blog/user.jpg" alt="wkf928592">
