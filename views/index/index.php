@@ -24,14 +24,14 @@ $this->registerJsFile('@staticHost/js/jquery.nanoscroller.min.js', ['depends' =>
             'controls' => false,
             'items' => [
                 [
-                    'content' => '<img src="http://image.malyan.cn/blog/banner_1.jpg" style="height: 324px;width: 100%">',
+                    'content' => '<img src="https://image.malyan.cn/blog/banner_1.jpg" style="height: 324px;width: 100%">',
                     'caption' => '<h4>小马哥</h4><p>This is the caption text</p>',
                 ],[
-                    'content' => '<img src="http://image.malyan.cn/blog/banner_2.jpg" style="height: 324px;width: 100%">',
+                    'content' => '<img src="https://image.malyan.cn/blog/banner_2.jpg" style="height: 324px;width: 100%">',
                     'caption' => '<h4>This is title</h4><p>你说今天天气怎么样？</p>',
                 ],
                 [
-                    'content' => '<img src="http://image.malyan.cn/blog/banner_3.jpg" style="height: 324px;width: 100%">',
+                    'content' => '<img src="https://image.malyan.cn/blog/banner_3.jpg" style="height: 324px;width: 100%">',
                     'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
                 ],
             ]
@@ -44,7 +44,7 @@ $this->registerJsFile('@staticHost/js/jquery.nanoscroller.min.js', ['depends' =>
         <div class="panel panel-default" style="background: url(http://image.malyan.cn/blog/user-bg.jpg) #fff; background-size:100% 120px; background-repeat:no-repeat;">
             <div class="panel-body">
                 <div class="user">
-                    <img class="avatar" src="http://image.malyan.cn/blog/user.jpg" alt="wkf928592">
+                    <img class="avatar" src="https://image.malyan.cn/blog/user.jpg" alt="wkf928592">
                     <h1>Malyan</h1>
                 </div>
             </div>
